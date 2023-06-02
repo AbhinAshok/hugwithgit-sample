@@ -1,11 +1,16 @@
 import cv2
 
+def keys():
+    print("key point detection")
+
+keys()    
+
 # Load the images
 image1 = cv2.imread("C:/Users/Asus/Pictures/1644117364784-01.jpeg")
 image2 = cv2.imread("C:/Users/Asus/Pictures/1644117923733-01.jpeg")
 
 # Resize the images to width of 400 pixels
-image1 = cv2.resize(image1, (400, int(400*image1.shape[0]/image1.shape[1])))
+image1 = cv2.resize(image1, (400, int(400*image1.shape[1]/image1.shape[1])))
 image2 = cv2.resize(image2, (400, int(400*image2.shape[0]/image2.shape[1])))
 
 # Convert images to grayscale
