@@ -32,3 +32,4 @@ match_img = cv2.drawMatches(image1, keypoints1, image2, keypoints2, matches[:10]
 cv2.imshow('Matches', match_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+print("hello")
