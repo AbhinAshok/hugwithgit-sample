@@ -32,3 +32,5 @@ cv2.imshow('Image 1 with Keypoints', image1_with_keypoints)
 cv2.imshow('Image 2 with Keypoints', image2_with_keypoints)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+print("hai")
